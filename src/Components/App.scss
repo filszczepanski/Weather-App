@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background-image: url("./medium.jpg");
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease;
+  min-height: 100vh;
+  padding: 25px;
+  font-family: "Rubik Bubbles";
+}
+
+.App input {
+  width: 100%;
+  margin: 0 0 30px;
+  font-family: "Rubik Bubbles";
+}
+
+.App input {
+  display: block;
+  width: 300px;
+  height: 53.2px;
+  padding: 15px;
+  margin-bottom: 5px;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0px 0px 16px 16px;
+  margin-top: -25px;
+
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+
+  color: black;
+  font-size: 20px;
+
+  transition: 0.4s ease;
+}
+
+.App button {
+  display: block;
+  width: 300px;
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 16px;
+  margin-top: -25px;
+
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+
+  color: #313131;
+  font-size: 15px;
+
+  transition: 0.4s ease;
+  font-family: "Rubik Bubbles";
+  margin-left: 2px;
+
+  margin: 0 0 30px;
+  height: 53.2px;
+  border: 0px 5px solid rgba(0, 0, 0, 0.2);
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.App button:hover {
+  background-color: black;
+  color: white;
+}
